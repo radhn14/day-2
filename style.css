@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 1.5;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.contact {
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.btn {
+    margin: 15px 0;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.download {
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+
+#download-icon {
+    padding: 7px 0 0 0;
+    margin: 15px 0;
+}
+
+.logo {
+    padding: 40px 0;
+}
+
+#linkedin {
+    padding: 0 8px 0 0;
+}
+
+#instagram {
+    padding: 0 8px;
+}
+
+#twitter {
+    padding: 0 8px;
+}
+
+#facebook {
+    padding: 0 8px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: rgba(243, 240, 240, 0.767)
+}
+
+.card-content {
+    text-align: center;
+    padding: 5px 0 15px 0;
+}
+
+.image-person {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
